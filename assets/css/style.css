@@ -59,6 +59,12 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url('../images/andorra-snow-hero.jpeg') no-repeat center center;
+/* Animate on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+
 }
 
 #hero-outer {
@@ -66,6 +72,8 @@ h1, h2 {
     width: 100%;
     overflow: hidden;
 }
+
+
 
 /* Zoom for hero image */
 @keyframes hero-zoom {
