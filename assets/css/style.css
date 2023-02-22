@@ -117,23 +117,24 @@ h1, h2 {
 }
 
 #left-about {
-    padding-top: 30px;
-    width: 33%;
+    padding: 30px;
+    width: 35%;
     float: left;
     
 }
 
 #right-about {
-    padding-top: 30px;
-    width: 33%;
+    padding: 30px;
+    width: 35%;
     float: right;
-    background-color: silver;
+    
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
+    padding: 0px 50px;
+    
 }
 
 hr {
@@ -144,17 +145,40 @@ hr {
 
 
 .left-about-heading {
-    width: 60%;
+    width: 100%;
     float: right;
-    line-height: 20px;
+    line-height: 25px;
     clear: both;
     margin-bottom: 50px;
 }
 
 .right-about-heading {
-    width: 60%;
+    width: 100%;
     float: left;
-    line-height: 20px;
+    line-height: 25px;
     clear: both;
     margin-bottom: 50px;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/piste-map.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
