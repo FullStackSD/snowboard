@@ -186,6 +186,14 @@ hr {
     background-color:#72CEE0;
    
 }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
+
+
+
 #maps_images {
     height: 600px;
     padding-top: 30px;
@@ -200,8 +208,5 @@ hr {
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto; 
-}
-
-#gv-piste img:hover {
-    background-color: rgba(50, 96, 168, .7);
+    display: block;
 }
