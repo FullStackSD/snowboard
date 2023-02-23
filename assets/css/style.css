@@ -186,3 +186,22 @@ hr {
     background-color:#72CEE0;
    
 }
+#maps_images {
+    height: 600px;
+    padding-top: 30px;
+}
+
+#gv-piste {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto; 
+}
+
+#gv-piste img:hover {
+    background-color: rgba(50, 96, 168, .7);
+}
