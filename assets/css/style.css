@@ -213,17 +213,13 @@ hr {
 
 /* live stream */
 
-
-iframe {
-    border: 2px red solid;
-    }
-
-#livestream {
+.live_video {
     width: 100%;
-    height: 600px;
+    padding-top: 56.25%;
+   
 }
 
-#live_video {
-    width: 100%;
-    height: 50%;
-}
+    
+
+
+
